@@ -1,0 +1,74 @@
+int border=20;
+
+void setup() {
+  size(600, 600);
+  background(0);
+}
+
+void draw() {
+  strokeWeight(1);
+  stroke(255);
+  int a= 30;
+while (a<height-border) {
+
+    ellipse(a, 20, 20, 20);
+   a+=30;
+  }
+  int b= 60;
+while (b<height-border-30) {
+
+    ellipse(b, 50, 20, 20);
+   b+=30;
+  }
+  int c= 90;
+while (c<height-border-(30*2)) {
+
+    ellipse(c, 80, 20, 20);
+   c+=30;
+  }
+  int d= 120;
+while (d<height-border-(30*3)) {
+
+    ellipse(d, 110, 20, 20);
+   d+=30;
+  }
+  int e= 150;
+while (e<height-border-(30*4)) {
+
+    ellipse(e, 140, 20, 20);
+   e+=30;
+  }
+  
+  int f= 180;
+while (f<height-border-(30*5)) {
+
+    ellipse(f, 170, 20, 20);
+   f+=30;
+  }
+  
+  int g= 210;
+while (g<height-border-(30*6)) {
+
+    ellipse(g, 200, 20, 20);
+   g+=30;
+  }
+  int h= 240;
+while (h<height-border-(30*7)) {
+
+    ellipse(h, 230, 20, 20);
+   h+=30;
+  }
+  int i= 270;
+while (i<height-border-(30*8)) {
+
+    ellipse(i, 260, 20, 20);
+   i+=30;
+  }
+  int j= 300;
+while (j<height-border-(30*9)) {
+
+    ellipse(j, 290, 20, 20);
+   j+=30;
+  }
+  
+ }
