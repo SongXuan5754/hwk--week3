@@ -1,0 +1,25 @@
+void setup() {
+  size(500, 500);
+  frameRate(10);
+}
+
+void draw () {
+  background(255);
+ 
+  int x = 20;
+  while (x< width-15) {
+    int y = 20;
+    while (y< height-15){
+    if(random(0,10) < 9){
+    line(x, y-4, x, y+4);
+    line(x-4, y, x+4, y);
+    
+    }
+  
+    y+=20;
+    }
+    x+=20;
+  }
+
+}
+
